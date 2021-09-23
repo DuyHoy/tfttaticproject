@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding :0;   
+}
+
+.team-potrait{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid #17313a;
+    cursor: pointer;
+    margin: 7.5px 0;
+    background: #102531;
+    color: #ffffff;
+}
+
+
+.team-name{
+display: flex;
+align-items: center;
+line-height: 1.3em;
+font-size: 15px;
+padding: 15px 15px 15px 20px;
+}
+
+.team-name{
+    width: 48%;
+    min-width: 48%;
+}
+
+.team-rank.tone{
+background: #ff7f7f;
+}
+
+.team-rank{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 25px;
+height: 25px;
+padding: 5px;
+margin-right: 20px;
+color: #0d202b;
+font-weight: 600;
+border-radius: 2.5px;
+cursor: default;
+}
+.team-name-elipsis{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.team-playstyle{
+    display: flex;
+    align-items: center;
+    color: #88a0a7;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: .05em;
+    margin-top: 2px;
+    background: #123040;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+.team-characters {
+    width: calc(52%-40px);
+    min-width: calc(52%-40px);
+   display: flex; 
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: flex-start;
+   padding: 10px 0;
+}
+
+.characters-item{
+position: relative;
+width: auto;    
+justify-items: flex-start;
+}
+
+.character-wraper{
+width: 100%;
+height: 100%;
+padding: 5px;
+margin: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.character-wraper{
+    align-content: flex-start;
+}
+.character-icon{
+    width: 45px;
+    height: 45px;
+    min-width: 45px;
+    min-height: 45px;
+}
