@@ -75,7 +75,8 @@ cursor: default;
 
 .characters-item{
 position: relative;
-width: auto;    
+width: auto;   
+ 
 justify-items: flex-start;
 }
 
